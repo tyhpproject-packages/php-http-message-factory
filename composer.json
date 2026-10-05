@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/php-http-message-factory",
+    "description": "Tyhp type definitions for php-http/message-factory 1.1.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.1.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/php-http-message-factory-impl": "~1.1.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/php-http-message-factory-impl"
+        }
+    }
+}
